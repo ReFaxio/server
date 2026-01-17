@@ -1,0 +1,479 @@
+[20:03:27] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[20:03:28] [ForkJoinPool-1-worker-3/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.21 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:03:28] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 11
+[20:03:29] [main/INFO]: Loading 117 mods:
+	- architectury 13.0.8
+	- atistructures 1.3.10
+	- chunky 1.4.23
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- cristellib 3.0.2
+	   \-- blue_endless_jankson 1.2.3
+	- doapi 1.3.0-beta-release
+	   |-- blue_endless_jankson 1.2.3
+	   \-- terraform-wood-api-v1 11.0.0-alpha.1
+	- dungeons_arise 2.1.68
+	- dungeons_arise_seven_seas 1.0.4
+	- ends_delight 2.5.2+refabricated.1.21.1
+	- fabric-api 0.116.7+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- farm_and_charm 1.1.14
+	- farmersdelight 1.21.1-3.2.2+refabricated
+	   \-- mm 2.3
+	- ferritecore 7.0.2-hotfix
+	- flora 1.0.3
+	- geyser-fabric 2.4.4-SNAPSHOT
+	   |-- cloud 2.0.0-beta.7
+	   |    |-- fabric-permissions-api-v0 0.3.1
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.8
+	   |    |-- org_incendo_cloud-core 2.0.0-rc.2
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-beta.7
+	   |    \-- org_incendo_cloud-services 2.0.0-rc.2
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.0
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- io_airlift_aircompressor 0.25
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-dns 4.1.107
+	   |-- io_netty_netty-codec-haproxy 4.1.107
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
+	   |-- net_bytebuddy_byte-buddy 1.14.9
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.15.0
+	   |-- net_kyori_adventure-key 4.15.0
+	   |-- net_kyori_adventure-nbt 4.15.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.15.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.15.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.15.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.1
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- incendium 5.4.3
+	- java 21
+	- jei 19.27.0.340
+	- minecraft 1.21.1
+	- modernfix 5.25.1+mc1.21.1
+	- mynethersdelight 1.21.1-2.0.3+1.7.8.refabricated
+	- oceansdelight fdrf-fabric-1.0.2-1.21
+	- servercore 1.5.10+1.21.1
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.3
+	   |-- placeholder-api 2.4.2+1.21
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- stellarity 3.0.6.1
+	- t_and_t 1.13.7
+	- voicechat 1.21.1-2.6.11
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- voicechat_api 2.6.0
+[20:03:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:03:30] [main/INFO]: Compatibility level set to JAVA_16
+[20:03:30] [main/INFO]: Compatibility level set to JAVA_17
+[20:03:30] [main/INFO]: Compatibility level set to JAVA_21
+[20:03:30] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[20:03:30] [main/INFO]: Applying Nashorn fix
+[20:03:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:03:37] [main/INFO]: Vanilla bootstrap took 4508 milliseconds
+[20:03:37] [main/ERROR]: No data fixer registered for doapi:chair
+[20:03:37] [main/INFO]: YAaargh!
+[20:03:37] [main/INFO]: Loaded config ends_delight-common.json
+[20:03:37] [main/ERROR]: No data fixer registered for farm_and_charm:rotten_tomato
+[20:03:37] [main/ERROR]: No data fixer registered for farm_and_charm:supply_cart
+[20:03:37] [main/ERROR]: No data fixer registered for farm_and_charm:plow
+[20:03:37] [main/ERROR]: No data fixer registered for farm_and_charm:chair
+[20:03:37] [main/INFO]: Registering C2S receiver with id farm_and_charm:set_text
+[20:03:37] [main/INFO]: Loaded config farmersdelight-common.json
+[20:03:37] [main/INFO]: Registering Mod Items for flora
+[20:03:37] [main/INFO]: blocks for flora
+[20:03:37] [main/INFO]: registering block entities flora
+[20:03:37] [main/INFO]: Registering Item Groups for flora
+[20:03:37] [main/INFO]: Registering Mod Items for flora
+[20:03:38] [main/INFO]: Loading extensions...
+[20:03:38] [main/INFO]: Loaded 0 extension(s)
+[20:03:38] [main/INFO]: Definitely not up to no good
+[20:03:38] [main/INFO]: Registering Items for oceansdelight
+[20:03:38] [main/INFO]: Registering Blocks for oceansdelight
+[20:03:38] [main/INFO]: Registering tabs for oceansdelight
+[20:03:38] [main/INFO]: [ServerCore] Loaded V1.5.10+1.21.1!
+[20:03:38] [main/INFO]: [voicechat] Compatibility version 20
+[20:03:38] [main/INFO]: [voicechat] Loading plugins
+[20:03:38] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:03:38] [main/INFO]: [voicechat] Initializing plugins
+[20:03:38] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:03:38] [main/ERROR]: Registry 'terraform:boat' was empty after loading
+[20:03:38] [main/WARN]: resource-pack-id missing, using default of 8c119d4b-0f3f-3b2e-a8a6-7c5c5bb7cca4
+[20:03:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:03:41] [main/INFO]: Loaded 2039 recipes
+[20:03:41] [main/ERROR]: Parsing error loading custom advancement dungeons_arise:find_thornborn_towers: No key id in MapLike[{"item":"minecraft:rose_bush"}]
+[20:03:41] [main/ERROR]: Parsing error loading custom advancement dungeons_arise:find_illager_corsair_or_illager_galley: No key id in MapLike[{"item":"minecraft:tropical_fish"}]
+[20:03:42] [main/ERROR]: Parsing error loading custom advancement dungeons_arise:find_keep_kayra: No key id in MapLike[{"item":"minecraft:lily_pad"}]
+[20:03:42] [main/ERROR]: Parsing error loading custom advancement dungeons_arise:find_infested_temple_map: No key id in MapLike[{"item":"minecraft:filled_map"}]
+[20:03:42] [main/ERROR]: Parsing error loading custom advancement dungeons_arise:find_greenwood_pub: No key id in MapLike[{"item":"minecraft:barrel"}]
+[20:03:42] [main/ERROR]: Couldn't load advancements: [dungeons_arise:find_plague_asylum, dungeons_arise:find_fishing_hut]
+[20:03:42] [main/INFO]: Loaded 2003 advancements
+[20:03:42] [main/WARN]: Initial datapack load took 3.276 s
+[20:03:42] [main/INFO]: Applied 198 biome modifications to 50 of 104 new biomes in 14.93 ms
+[20:03:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:03:42] [Server thread/INFO]: Loading properties
+[20:03:42] [Server thread/INFO]: Default game type: SURVIVAL
+[20:03:42] [Server thread/INFO]: Generating keypair
+[20:03:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:03:42] [Server thread/INFO]: Using epoll channel type
+[20:03:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:03:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:03:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:03:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:03:42] [Server thread/INFO]: Preparing level "world"
+[20:03:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:03:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:03:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:03:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:03:45] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[20:03:45] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[20:03:50] [Server thread/INFO]: Time elapsed: 7081 ms
+[20:03:50] [Server thread/INFO]: Done (7.555s)! For help, type "help"
+[20:03:50] [Server thread/WARN]: Dedicated server took 29.922 seconds to load
+[20:03:50] [Server thread/INFO]: ******************************************
+[20:03:50] [Server thread/INFO]: 
+[20:03:50] [Server thread/INFO]: Loading Geyser version 2.4.4-b705 (git-master-d61ad7b)
+[20:03:50] [Server thread/INFO]: 
+[20:03:50] [Server thread/INFO]: ******************************************
+[20:03:53] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
+[20:03:53] [Server thread/INFO]: Done (3.239s)! Run /geyser help for help!
+[20:03:53] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[20:03:53] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'user-arg.gl.at.ply.gg'
+[20:03:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 22461
+[20:03:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3302ms or 66 ticks behind
+[20:03:53] [ForkJoinPool.commonPool-worker-1/INFO]: [32;1mThere's a new Geyser update available to support Bedrock version 1.21.131. Download it here: [34;1m[4mhttps://geysermc.org/download[0m
+[20:04:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@423af6d[id=a9427a72-3bb3-3a63-96ad-beaecc4e4951,name=ReFaxio,properties={}] lost connection: Disconnected
+[20:05:41] [Server thread/INFO]: ReFaxio[/127.112.69.69:33571] logged in with entity id 36 at (-1286.656517979531, 63.0, -1300.0823291286342)
+[20:05:41] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[20:05:41] [Server thread/INFO]: ReFaxio joined the game
+[20:05:44] [Server thread/INFO]: [voicechat] Received secret request of ReFaxio (20)
+[20:05:44] [Server thread/INFO]: [voicechat] Sent secret to ReFaxio
+[20:05:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[20:05:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[20:05:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ReFaxio (a9427a72-3bb3-3a63-96ad-beaecc4e4951) successfully connected to voice chat
+[20:07:05] [Server thread/INFO]: EaterWorldnmqs[/127.72.89.149:41519] logged in with entity id 459 at (-1279.8239065317346, 63.49520087700592, -1301.3747680556933)
+[20:07:05] [Server thread/INFO]: EaterWorldnmqs joined the game
+[20:07:06] [Server thread/INFO]: [voicechat] Received secret request of EaterWorldnmqs (20)
+[20:07:06] [Server thread/INFO]: [voicechat] Sent secret to EaterWorldnmqs
+[20:07:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4041a914-359d-3c17-8c90-7d19a3e4d098
+[20:07:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4041a914-359d-3c17-8c90-7d19a3e4d098
+[20:07:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player EaterWorldnmqs (4041a914-359d-3c17-8c90-7d19a3e4d098) successfully connected to voice chat
+[20:07:21] [Server thread/INFO]: [Not Secure] <ReFaxio> devorador de mundos?
+[20:07:25] [Server thread/INFO]: [Not Secure] <ReFaxio> eso significa xdd
+[20:07:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> que
+[20:09:12] [Server thread/INFO]: ReFaxio has reached the goal [You Need a Mint]
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -3.481603567443244,0.0,-9.569727856655163
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.4027278384007786,0.0,-10.061097141337768
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -3.6701760674575326,0.0,-9.91942821183352
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.4140629409218946,0.0,-10.453760768152506
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -3.8587099689571005,0.0,-10.26945523895256
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.4151864623993333,0.0,-10.846114262743413
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.047077021824634,0.0,-10.61984638822446
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.4063891705202423,0.0,-11.238011180411831
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.2351751300459455,0.0,-10.970627754071074
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.3880065271889634,0.0,-11.629325159855853
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.404463422960589,0.0,-11.286330974969587
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.3604097869397265,0.0,-12.019950485281242
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.556822882547522,0.0,-11.57046386625143
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.323994366388888,0.0,-12.409800886116955
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.693946392543239,0.0,-11.826183461630762
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.279836835142987,0.0,-12.799012192886494
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.817357548270138,0.0,-12.056331091375341
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.229559668889351,0.0,-13.187889993220097
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -4.928427585482041,0.0,-12.263463952658412
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.1752209451965427,0.0,-13.576833628914528
+[20:13:55] [Server thread/WARN]: Birch Boat (vehicle of EaterWorldnmqs) moved too quickly! -5.0283906163244865,0.0,-12.449883522874643
+[20:13:55] [Server thread/WARN]: Oak Boat with Chest (vehicle of ReFaxio) moved too quickly! -2.118538813131863,0.0,-13.966119530461356
+[20:18:19] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:18:24] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:18:54] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:19:01] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:19:07] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:19:10] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:19:16] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:19:23] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre
+[20:19:24] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> tp
+[20:19:31] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:19:52] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:19:56] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:20:08] [Server thread/WARN]: EaterWorldnmqs moved too quickly! -6.98854400867458,2.250812921255317,-7.073918484863043
+[20:20:15] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:20:19] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:20:43] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:20:46] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> XD
+[20:20:48] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre tp
+[20:20:50] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:22:44] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:22:47] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:23:28] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:23:35] [Server thread/INFO]: [Not Secure] <ReFaxio> XD
+[20:23:35] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andreee tp
+[20:23:38] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:24:22] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:24:27] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:24:41] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:24:54] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> llevame
+[20:24:56] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:25:06] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:25:13] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> oeeee
+[20:25:18] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:25:34] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:25:37] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:26:00] [Server thread/INFO]: ReFaxio was slain by Vindicator
+[20:26:04] [Server thread/INFO]: [ReFaxio: Teleported ReFaxio to EaterWorldnmqs]
+[20:26:07] [Server thread/INFO]: EaterWorldnmqs was slain by Vindicator
+[20:26:12] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> oieeeeeeeee
+[20:26:13] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:28:43] [Server thread/WARN]: EaterWorldnmqs moved too quickly! 7.1392833103643625,2.919999986886978,6.469085148903787
+[20:29:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre?
+[20:29:36] [Server thread/INFO]: [Not Secure] <ReFaxio> me escuchas?
+[20:29:46] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ontas
+[20:29:51] [Server thread/INFO]: [Not Secure] <ReFaxio> en el barco :v
+[20:29:59] [Server thread/INFO]: EaterWorldnmqs lost connection: Disconnected
+[20:29:59] [Server thread/INFO]: EaterWorldnmqs left the game
+[20:29:59] [Server thread/INFO]: [voicechat] Disconnecting client EaterWorldnmqs
+[20:30:06] [Server thread/INFO]: ReFaxio lost connection: Disconnected
+[20:30:06] [Server thread/INFO]: ReFaxio left the game
+[20:30:06] [Server thread/INFO]: [voicechat] Disconnecting client ReFaxio
+[20:30:15] [Server thread/INFO]: EaterWorldnmqs[/127.72.89.149:37765] logged in with entity id 9057 at (-1541.622620172144, 65.0, -1605.5558811823666)
+[20:30:15] [Server thread/INFO]: EaterWorldnmqs joined the game
+[20:30:15] [Server thread/INFO]: [voicechat] Received secret request of EaterWorldnmqs (20)
+[20:30:15] [Server thread/INFO]: [voicechat] Sent secret to EaterWorldnmqs
+[20:30:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4041a914-359d-3c17-8c90-7d19a3e4d098
+[20:30:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4041a914-359d-3c17-8c90-7d19a3e4d098
+[20:30:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player EaterWorldnmqs (4041a914-359d-3c17-8c90-7d19a3e4d098) successfully connected to voice chat
+[20:30:26] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andree
+[20:30:28] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ?
+[20:31:40] [Server thread/INFO]: ReFaxio[/127.112.69.69:43605] logged in with entity id 9920 at (-1580.5730269510373, 66.0, -1596.009486473562)
+[20:31:40] [Server thread/INFO]: ReFaxio joined the game
+[20:31:40] [Server thread/INFO]: [voicechat] Received secret request of ReFaxio (20)
+[20:31:40] [Server thread/INFO]: [voicechat] Sent secret to ReFaxio
+[20:31:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[20:31:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[20:31:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ReFaxio (a9427a72-3bb3-3a63-96ad-beaecc4e4951) successfully connected to voice chat
+[20:31:47] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andrecito pro?
+[20:31:50] [Server thread/INFO]: [Not Secure] <ReFaxio> .-.
+[20:32:02] [Server thread/INFO]: [Not Secure] <ReFaxio> on tas
+[20:32:10] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> me fui a explorar por ahi XD
+[20:32:13] [Server thread/INFO]: [Not Secure] <ReFaxio> .-.
+[20:32:19] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> llevame
+[20:32:22] [Server thread/INFO]: [Not Secure] <ReFaxio> oe
+[20:32:24] [Server thread/INFO]: [Not Secure] <ReFaxio> no moleste s.-.
+[20:32:33] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:32:34] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> o
+[20:33:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre?
+[20:33:46] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> cito
+[20:33:46] [Server thread/INFO]: [ReFaxio: Teleported EaterWorldnmqs to ReFaxio]
+[20:36:48] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre minimo remodela la isla pe
+[20:36:52] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:36:55] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> da pena
+[20:41:01] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ANDREEEEEEEE
+[20:41:02] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> WTF
+[20:41:03] [Server thread/INFO]: [Not Secure] <ReFaxio> q
+[20:41:05] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> Q ES ESTO
+[20:41:07] [Server thread/INFO]: [Not Secure] <ReFaxio> q we
+[20:41:09] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> TE MANDO FOTO
+[20:41:12] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:41:26] [Server thread/INFO]: [Not Secure] <ReFaxio> AA
+[20:41:30] [Server thread/INFO]: [Not Secure] <ReFaxio> un ahogado con tridente
+[20:41:35] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> duerme
+[20:41:53] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> Zzzzzz
+[20:41:55] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> duermeee
+[20:41:57] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> zzzzzzz
+[20:42:17] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> duermeee
+[20:42:34] [Server thread/INFO]: [Not Secure] <ReFaxio> es q me estaba pegando un ahogado
+[20:42:36] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre ven
+[20:42:38] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> esto es grande
+[20:42:40] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ven
+[20:42:53] [Server thread/INFO]: [Not Secure] <ReFaxio> q es eso
+[20:42:55] [Server thread/INFO]: [Not Secure] <ReFaxio> wtf
+[20:42:58] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ni idea ven
+[20:43:02] [Server thread/INFO]: [Not Secure] <ReFaxio> .-.
+[20:43:09] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> facilito
+[20:43:15] [Server thread/INFO]: EaterWorldnmqs has made the advancement [Feed The Machine]
+[20:43:19] [Server thread/INFO]: [Not Secure] <ReFaxio> vas a morir we
+[20:43:23] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> por eso ven pe
+[20:43:26] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:43:30] [Server thread/INFO]: [Not Secure] <ReFaxio> nah ahi nomas
+[20:43:33] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> oe
+[20:43:39] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ve
+[20:43:48] [Server thread/INFO]: [Not Secure] <ReFaxio> es q yo si voy a morir xd
+[20:46:32] [Server thread/WARN]: Tried to over-fill a container
+[20:46:41] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre encontre una llave de color negro con marron
+[20:46:42] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> q es eos
+[20:46:47] [Server thread/INFO]: [Not Secure] <ReFaxio> ni idea
+[20:47:18] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andre ta potente
+[20:47:21] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:47:29] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> AAAA
+[20:47:44] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ayudaaaaaaaaaaaaa
+[20:47:50] [Server thread/INFO]: [Not Secure] <ReFaxio> pa q vas xd
+[20:47:51] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> andree help
+[20:47:53] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ven
+[20:48:02] [Server thread/INFO]: [Not Secure] <ReFaxio> toy ocupado
+[20:51:23] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> leprechanu
+[20:51:24] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ayuda
+[20:51:26] [Server thread/INFO]: [Not Secure] <ReFaxio> XD
+[20:51:35] [Server thread/INFO]: [Not Secure] <ReFaxio> ya te tepeo
+[20:51:38] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> nononon
+[20:51:43] [Server thread/INFO]: [Not Secure] <ReFaxio> .-.
+[20:51:44] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> bromita
+[20:51:48] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> DX
+[20:51:51] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> tu ven mejor
+[20:51:55] [Server thread/INFO]: [Not Secure] <ReFaxio> nah ven tu xd
+[20:52:01] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> despues
+[20:52:03] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ta facilito
+[20:52:06] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:54:05] [Server thread/INFO]: [Not Secure] <ReFaxio> oe duerme
+[20:54:09] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> pera
+[20:54:12] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> toy q mueroi
+[20:55:36] [Server thread/INFO]: [Not Secure] <ReFaxio> duermee
+[20:55:45] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> no puedo hay moyunstro cerca
+[20:55:53] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> hay time set day
+[20:55:54] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> o espera
+[20:55:59] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ahi los mato
+[20:56:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> AAAAAAAAW
+[20:56:32] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:56:41] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> FACILITO
+[20:58:06] [Server thread/INFO]: EaterWorldnmqs has made the advancement [Who Needs Rockets?]
+[20:58:45] [Server thread/INFO]: [Not Secure] <ReFaxio> oe duerme
+[20:59:13] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> YAAAAAA
+[20:59:29] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[20:59:37] [Server thread/INFO]: [Not Secure] <ReFaxio> por fin o.0
+[21:01:18] [Server thread/INFO]: EaterWorldnmqs has reached the goal [Postmortal]
+[21:01:21] [Server thread/INFO]: [Not Secure] <ReFaxio> XD
+[21:01:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[21:01:42] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> facilito
+[21:02:43] [Server thread/INFO]: [Not Secure] <ReFaxio> oe empece a minar pa abajo
+[21:02:48] [Server thread/INFO]: [Not Secure] <ReFaxio> y me dio un lag horrible
+[21:03:31] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> xd
+[21:05:25] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ANDRWE
+[21:05:27] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> HAY UN BOSSS
+[21:05:28] [Server thread/INFO]: [Not Secure] <ReFaxio> q we
+[21:05:30] [Server thread/INFO]: [Not Secure] <ReFaxio> XD
+[21:05:30] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> CON UN KMARTILLO
+[21:05:32] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> AAAAAAAAAAAAAAA
+[21:05:43] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> ANDRE
+[21:05:45] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> MANDAME ANTORCHAS
+[21:05:47] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> PLIS
+[21:05:49] [Server thread/INFO]: [Not Secure] <ReFaxio> XD
+[21:05:50] [Server thread/INFO]: [Not Secure] <ReFaxio> como
+[21:05:54] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> con comando give
+[21:05:57] [Server thread/INFO]: [Not Secure] <ReFaxio> oe XD
+[21:05:58] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> busca
+[21:05:59] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> fas
+[21:06:59] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=147, y=169, z=-166}
+[21:06:59] [Server thread/WARN]: EaterWorldnmqs moved too quickly! 1.591403732792969,0.41999998688697815,10.03430707827647
+[21:06:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6331ms or 126 ticks behind
+[21:08:06] [Server thread/WARN]: Tried to over-fill a container
+[21:08:39] [Server thread/WARN]: Tried to over-fill a container
+[21:10:47] [Server thread/WARN]: Tried to over-fill a container
+[21:11:20] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> estoy llevando cosas muy chetas
+[21:11:23] [Server thread/INFO]: [Not Secure] <ReFaxio> xd
+[21:11:24] [Server thread/INFO]: [Not Secure] <EaterWorldnmqs> pico con fortuna 3 y ma cosas
+[21:11:59] [Server thread/INFO]: ReFaxio has made the advancement [Bonfire Lit]
+[21:14:12] [Server thread/WARN]: ReFaxio moved too quickly! 5.605036932592839,-1.1661092609382138,-8.35391403610538
+[21:17:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 175041ms or 3500 ticks behind
+[21:15:12] [Server Watchdog/ERROR]: A single server tick took 60.00 seconds (should be max 0.05)
+[21:14:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4041a914-359d-3c17-8c90-7d19a3e4d098 timed out
+[21:17:07] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
+[21:17:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player EaterWorldnmqs
+[21:17:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to EaterWorldnmqs
+[21:17:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player a9427a72-3bb3-3a63-96ad-beaecc4e4951 timed out
+[21:17:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player ReFaxio
+[21:17:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to ReFaxio
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs left the game
+[21:17:07] [Server thread/INFO]: [voicechat] Disconnecting client EaterWorldnmqs
+[21:17:07] [Server thread/INFO]: ReFaxio lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: ReFaxio left the game
+[21:17:07] [Server thread/INFO]: [voicechat] Disconnecting client ReFaxio
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:44849) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:59619) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:54473) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:34637) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:51753) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: ReFaxio (/127.112.69.69:35275) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: ReFaxio (/127.112.69.69:45423) lost connection: Disconnected
+[21:17:07] [Server thread/INFO]: EaterWorldnmqs (/127.72.89.149:33907) lost connection: Disconnected
+[21:17:07] [Server Watchdog/ERROR]: This crash report has been saved to: /workspaces/server/servidor_minecraft/crash-reports/crash-2026-01-17_21.17.07-server.txt
