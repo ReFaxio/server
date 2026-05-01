@@ -1,0 +1,726 @@
+[01May2026 15:02:53.422] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01May2026 15:02:53.426] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[01May2026 15:02:53.999] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01May2026 15:02:54.043] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01May2026 15:02:54.425] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01May2026 15:02:54.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01May2026 15:02:54.428] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01May2026 15:02:54.428] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01May2026 15:02:55.364] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01May2026 15:02:55.366] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 41 dependencies adding them to mods collection
+[01May2026 15:02:55.818] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[01May2026 15:02:55.857] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[01May2026 15:02:55.872] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[01May2026 15:02:55.880] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/server/servidor_minecraft/mods/scripts as it did not exist.
+[01May2026 15:02:55.888] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[01May2026 15:02:58.989] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01May2026 15:02:59.120] [main/ERROR] [mixin/]: Mixin config scaling_mobs.mixin.json does not specify "minVersion" property
+[01May2026 15:02:59.173] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 3164ms
+[01May2026 15:02:59.174] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[01May2026 15:02:59.258] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01May2026 15:02:59.393] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.12+mc1.20.1: 108 options available, 1 override(s) found
+[01May2026 15:02:59.394] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[01May2026 15:02:59.394] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[01May2026 15:02:59.414] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[01May2026 15:02:59.539] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 148 options available, 0 override(s) found
+[01May2026 15:02:59.672] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01May2026 15:02:59.716] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[01May2026 15:02:59.835] [main/INFO] [Puzzles Lib/]: Loading 102 mods:
+	- almanac 1.0.2
+	- architectury 9.2.14
+	- athena 3.1.2
+	- atlaslib 1.1.12
+	- auudio 1.0.3
+	- badmobs 19.0.4
+	- better_mob_food 1.0.0
+	- better_zombie_drops 1.0.0
+	- bookshelf 20.2.13
+	- charmofundying 6.5.0+1.20.1
+	- chunky 1.3.146
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- cofh_core 11.0.2
+	- collective 7.87
+	- commongroovylibrary 0.3.3
+	- configurableextramobdrops 3.4
+	- controlling 12.0.2
+	- corgilib 4.0.3.3
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.19
+	- creativecore 2.12.28
+	- cupboard 1.20.1-2.7
+	- curios 5.11.1+1.20.1
+	- cw_additions 1.1.6
+	- dimension_access_manager 3.1.0
+	- drippyloadingscreen 3.0.9
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- entityculling 1.7.4
+	- everlastingskins 1.0
+	- fancymenu 3.3.2
+	- fastasyncworldsave 1.20.1-2.4
+	- fastbench 8.0.4
+	- fastboot 1.2
+	- fastfurnace 8.0.2
+	- fastload 3.4.0
+	- fastpaintings 1.20-1.2.7
+	- ferritecore 6.0.1
+	- firstjoinmessage 3.6
+	- forge 47.3.7
+	- forgivingworld 1.20.1-4.7
+	- framework 0.7.12
+	- geckolib 4.7
+	- glitchcore 0.0.1.1
+	- gml 4.0.9
+	- horrrs_pvz 1.81
+	- incontrol 1.20-9.2.11
+	- insanelib 1.16.1
+	- itemblacklist 1.20.1-1.0.0f
+	- jei 15.20.0.105
+	- jeresources 1.4.0.247
+	- justzoom 2.0.0
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- kubejs 2001.6.5-build.16
+	- letmedespawn 1.4.4
+	- lootr 0.7.35.90
+	- lostcities 1.20-7.3.5
+	- marbledsarsenal 1.20.1-2.3.0
+	- marbledsmelees 1.20.1-1.0.0
+	- mcore 1.0.3.0
+	- melody 1.0.2
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- mobsunscreen 3.1.1
+	- modernfix 5.27.12+mc1.20.1
+		\-- mixinextras 0.4.1
+	- moonlight 1.20-2.13.47
+	- mutantmonsters 8.0.7
+	- nerb 0.4.1
+	- no_ruined_nether_portals 1.0.0
+	- nobabyzombies1_20_1forge 1.1
+	- noisium 2.3.0+mc1.20-1.20.1
+	- nonetherportal 1.20.1-1.0
+	- octolib 0.4.2
+	- openloader 19.0.4
+	- overworld_netherite_ore 1.0
+	- packetfixer 1.4.3
+	- pandalib 0.4.2
+	- patchouli 1.20.1-84-FORGE
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.31
+	- pointblank 1.9.6
+	- polymorph 0.49.8+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- resourcefullib 2.1.29
+	- rhino 2001.2.3-build.6
+	- scalingmobs 2.2.2
+	- searchables 1.0.3
+	- skinrestorer 2.7.0+1.20-forge
+	- smoothboot 0.0.4
+	- starterkit 7.1
+	- structure_gel 2.16.2
+	- tacz 1.0.3
+	- tenshilib 1.20.1-1.7.6
+	- the_deep_void 1.28
+	- uteamcore 5.1.4.346
+	- voicechat 1.20.1-2.6.16
+		\-- voicechat_api 2.6.13
+[01May2026 15:02:59.874] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01May2026 15:03:00.017] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:00.058] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:01.189] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[01May2026 15:03:01.190] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[01May2026 15:03:01.191] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[01May2026 15:03:01.617] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[01May2026 15:03:01.619] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[01May2026 15:03:01.620] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[01May2026 15:03:01.958] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[01May2026 15:03:01.958] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[01May2026 15:03:02.150] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01May2026 15:03:02.777] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[01May2026 15:03:02.867] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01May2026 15:03:02.925] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[01May2026 15:03:02.956] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.66 s after launch)
+[01May2026 15:03:03.082] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[01May2026 15:03:03.082] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[01May2026 15:03:04.012] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:04.013] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:05.164] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2193 milliseconds
+[01May2026 15:03:05.721] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:05.722] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01May2026 15:03:08.239] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01May2026 15:03:08.632] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[01May2026 15:03:08.964] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
+[01May2026 15:03:08.997] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[01May2026 15:03:09.023] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[01May2026 15:03:09.025] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[01May2026 15:03:09.026] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[01May2026 15:03:09.098] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[01May2026 15:03:09.099] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is not signed with a valid certificate but should be signed.
+[01May2026 15:03:09.099] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Please download the mod only from trusted sources such as curseforge.com!
+[01May2026 15:03:09.100] [modloading-worker-0/WARN] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: ---------------------------------------------------------------------------------
+[01May2026 15:03:09.142] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[01May2026 15:03:09.142] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[01May2026 15:03:09.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[01May2026 15:03:09.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[01May2026 15:03:09.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[01May2026 15:03:09.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[01May2026 15:03:09.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[01May2026 15:03:09.162] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[01May2026 15:03:09.172] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[01May2026 15:03:09.174] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[01May2026 15:03:09.255] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[01May2026 15:03:09.385] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
+[01May2026 15:03:09.416] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[01May2026 15:03:09.425] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[01May2026 15:03:09.468] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: java.nio.file.NoSuchFileException: /workspaces/server/servidor_minecraft/pointblank
+[01May2026 15:03:09.471] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[01May2026 15:03:09.471] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+[01May2026 15:03:09.472] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+[01May2026 15:03:09.472] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:440)
+[01May2026 15:03:09.472] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
+[01May2026 15:03:09.472] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:371)
+[01May2026 15:03:09.473] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:242)
+[01May2026 15:03:09.474] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at TRANSFORMER/pointblank@1.9.6/com.vicmatskiv.pointblank.PointBlankMod.<init>(PointBlankMod.java:119)
+[01May2026 15:03:09.474] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[01May2026 15:03:09.475] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[01May2026 15:03:09.478] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[01May2026 15:03:09.478] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[01May2026 15:03:09.479] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[01May2026 15:03:09.479] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at LAYER PLUGIN/javafmllanguage@1.20.1-47.3.7/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70)
+[01May2026 15:03:09.479] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at LAYER PLUGIN/fmlcore@1.20.1-47.3.7/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124)
+[01May2026 15:03:09.479] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[01May2026 15:03:09.479] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[01May2026 15:03:09.480] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[01May2026 15:03:09.480] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[01May2026 15:03:09.480] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[01May2026 15:03:09.480] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[01May2026 15:03:09.481] [modloading-worker-0/INFO] [STDERR/]: [com.vicmatskiv.pointblank.registry.ExtensionRegistry:scanExtensions:394]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[01May2026 15:03:09.565] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01May2026 15:03:09.569] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pandalib:config_sync
+[01May2026 15:03:09.597] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01May2026 15:03:09.696] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[01May2026 15:03:09.818] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[01May2026 15:03:09.824] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[01May2026 15:03:09.843] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[01May2026 15:03:09.854] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[01May2026 15:03:09.868] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[01May2026 15:03:09.872] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[01May2026 15:03:09.891] [modloading-worker-0/INFO] [KubeJS/]: Done in 48.00 ms
+[01May2026 15:03:10.254] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01May2026 15:03:10.254] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01May2026 15:03:10.288] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.9 in server-side mode on FORGE!
+[01May2026 15:03:10.417] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[01May2026 15:03:10.425] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[01May2026 15:03:10.445] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[01May2026 15:03:10.707] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.288 s
+[01May2026 15:03:11.233] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.2 in server-side mode on FORGE!
+[01May2026 15:03:11.339] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[01May2026 15:03:11.471] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[01May2026 15:03:11.482] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[01May2026 15:03:11.510] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[01May2026 15:03:11.616] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:cwstartuptweaks.js in 0.128 s
+[01May2026 15:03:11.634] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:disabledOres.js in 0.018 s
+[01May2026 15:03:11.653] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:matt's_stims_startup.js in 0.018 s
+[01May2026 15:03:11.660] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 3/3 KubeJS startup scripts in 0.946 s with 0 errors and 0 warnings
+[01May2026 15:03:11.664] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[01May2026 15:03:11.762] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[01May2026 15:03:11.767] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[01May2026 15:03:13.115] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
+[01May2026 15:03:13.454] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[01May2026 15:03:13.465] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[01May2026 15:03:13.467] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[01May2026 15:03:13.469] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[01May2026 15:03:13.822] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[01May2026 15:03:13.987] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[01May2026 15:03:13.987] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[01May2026 15:03:14.089] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[01May2026 15:03:14.135] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[01May2026 15:03:14.165] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[01May2026 15:03:14.190] [modloading-worker-0/INFO] [com.forgivingworld.ForgivingWorldMod/]: forgivingworld mod initialized
+[01May2026 15:03:14.206] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[01May2026 15:03:14.211] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[01May2026 15:03:14.257] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[01May2026 15:03:14.264] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[01May2026 15:03:14.313] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[01May2026 15:03:14.324] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[01May2026 15:03:14.325] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[01May2026 15:03:14.326] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[01May2026 15:03:14.536] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[01May2026 15:03:14.536] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[01May2026 15:03:14.537] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[01May2026 15:03:14.537] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[01May2026 15:03:14.537] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[01May2026 15:03:14.538] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[01May2026 15:03:14.538] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[01May2026 15:03:14.538] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[01May2026 15:03:14.565] [main/INFO] [Moonlight/]: Initialized color sets in 15ms
+[01May2026 15:03:14.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[01May2026 15:03:14.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[01May2026 15:03:14.858] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 20.2.13 Target: 20.2.15
+[01May2026 15:03:14.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[01May2026 15:03:15.135] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.346 Target: 5.1.4.382
+[01May2026 15:03:15.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[01May2026 15:03:15.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[01May2026 15:03:15.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[01May2026 15:03:15.617] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01May2026 15:03:15.721] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[01May2026 15:03:15.984] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.23
+[01May2026 15:03:15.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Starting version check at https://maven.moddinginquisition.org/releases/org/groovymc/gml/gml/forge-promotions.json
+[01May2026 15:03:16.005] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/assets/.mcassetsroot' uses unexpected schema
+[01May2026 15:03:16.006] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23289!/data/.mcassetsroot' uses unexpected schema
+[01May2026 15:03:16.081] [main/INFO] [Open Loader/]: Preparing Data Pack injection.
+[01May2026 15:03:16.084] [main/INFO] [Open Loader/]: Loaded archive Data Pack from /workspaces/server/servidor_minecraft/config/openloader/data/no_spore_structures.zip.
+[01May2026 15:03:16.084] [main/INFO] [Open Loader/]: Successfully injected 1/1 packs from /workspaces/server/servidor_minecraft/config/openloader/data.
+[01May2026 15:03:16.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gml] Found status: BETA Current: 4.0.9 Target: null
+[01May2026 15:03:16.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[01May2026 15:03:16.345] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:itemRecipeBlacklist.js in 0.005 s
+[01May2026 15:03:16.349] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:matt's_stims_server.js in 0.002 s
+[01May2026 15:03:16.350] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:cursedwalkingrecipechanges.js in 0.001 s
+[01May2026 15:03:16.350] [main/INFO] [KubeJS Server/]: Loaded 3/3 KubeJS server scripts in 0.033 s with 0 errors and 0 warnings
+[01May2026 15:03:16.351] [main/INFO] [KubeJS Server/]: Scripts loaded
+[01May2026 15:03:16.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[01May2026 15:03:16.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
+[01May2026 15:03:16.369] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[01May2026 15:03:16.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
+[01May2026 15:03:16.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[01May2026 15:03:16.548] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[01May2026 15:03:16.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/Forge-1.20.1/updates.json
+[01May2026 15:03:16.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[01May2026 15:03:16.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[01May2026 15:03:16.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: OUTDATED Current: 8.0.7 Target: 8.0.8
+[01May2026 15:03:16.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[01May2026 15:03:16.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[01May2026 15:03:16.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[01May2026 15:03:16.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[01May2026 15:03:16.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[01May2026 15:03:16.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[01May2026 15:03:16.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01May2026 15:03:17.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[01May2026 15:03:17.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[01May2026 15:03:17.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 11.0.2 Target: null
+[01May2026 15:03:17.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[01May2026 15:03:17.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.16 Target: null
+[01May2026 15:03:17.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[01May2026 15:03:17.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.47 Target: null
+[01May2026 15:03:17.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
+[01May2026 15:03:17.281] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23290!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[01May2026 15:03:17.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[01May2026 15:03:17.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[01May2026 15:03:17.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[01May2026 15:03:17.588] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.4.3 Target: 3.3.2
+[01May2026 15:03:17.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.20.1
+[01May2026 15:03:17.700] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA_OUTDATED Current: 19.0.4 Target: 19.0.5
+[01May2026 15:03:17.953] [Worker-Main-1/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01May2026 15:03:18.200] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: netherite_ore_mod:ancientdebrisore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:deepslate_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar), 
+	netherite_ore_mod:netherite_ancient_debris_ore (from Skay's Overworld Netherite RELEASE 1.20.1 Forge.jar)
+[01May2026 15:03:18.611] [main/INFO] [KubeJS Server/]: Processing recipes...
+[01May2026 15:03:18.623] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_bone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.628] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_wooden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.630] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_diamond_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.637] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_devourer_hook_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.642] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_golden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.650] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_boots[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.656] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_sword_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.661] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_chestplate[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.673] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_axe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.675] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_onyx_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.679] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_helmet[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.683] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_iron_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.686] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_tongue_hook[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.688] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_stone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.689] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_stone_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.693] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_netherite_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.694] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_golden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.695] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_pickaxe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.696] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_iron_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.697] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:rotten_netherite_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.699] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_leggings[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.702] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_diamond_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.703] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_wooden_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.704] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_shovel_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.714] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:void_vision_spyglass[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.717] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:lavendite_shield[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.719] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'the_deep_void:bismuth_netherite_hoe_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[01May2026 15:03:18.723] [main/INFO] [KubeJS Server/]: Found 1690 recipes in 110.6 ms
+[01May2026 15:03:18.724] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_clean_block
+[01May2026 15:03:18.725] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_clean_block_blasting
+[01May2026 15:03:18.725] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_exposed_block
+[01May2026 15:03:18.725] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_exposed_block_blasting
+[01May2026 15:03:18.726] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_rusted_block
+[01May2026 15:03:18.726] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_rusted_block_blasting
+[01May2026 15:03:18.726] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_weathered_block
+[01May2026 15:03:18.727] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: immersive_weathering:iron_ingot_from_weathered_block_blasting
+[01May2026 15:03:18.727] [main/INFO] [KubeJS Server/]: itemRecipeBlacklist.js#57: the_deep_void:refined_bismuth
+[01May2026 15:03:18.779] [main/ERROR] [KubeJS Server/]: itemRecipeBlacklist.js#63: Error in 'ServerEvents.recipes': TypeError: Cannot call method "forEach" of undefined
+[01May2026 15:03:18.781] [main/INFO] [KubeJS Server/]: Posted recipe events in 57.36 ms
+[01May2026 15:03:18.848] [main/INFO] [KubeJS Server/]: Added 0 recipes, removed 13 recipes, modified 0 recipes, with 0 failed recipes in 60.30 ms
+[01May2026 15:03:18.848] [main/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[01May2026 15:03:19.000] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1308 advancements
+[01May2026 15:03:19.004] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[01May2026 15:03:19.009] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[01May2026 15:03:19.013] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[01May2026 15:03:19.018] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[01May2026 15:03:19.022] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[01May2026 15:03:19.071] [main/WARN] [ModernFix/]: Initial datapack load took 3.014 s
+[01May2026 15:03:19.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01May2026 15:03:19.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01May2026 15:03:19.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01May2026 15:03:19.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01May2026 15:03:19.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01May2026 15:03:19.478] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01May2026 15:03:19.582] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01May2026 15:03:19.583] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01May2026 15:03:19.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01May2026 15:03:19.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01May2026 15:03:19.604] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: Loading "Dimension Access Manager" SERVER Config
+[01May2026 15:03:19.605] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: default_dimension_access_type = GRANTED
+[01May2026 15:03:19.606] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: dimension_command_permission_level = 3
+[01May2026 15:03:19.607] [Server thread/INFO] [de.geheimagentnr1.minecraft_forge_api.config.AbstractConfig/]: "Dimension Access Manager" SERVER Config loaded
+[01May2026 15:03:19.622] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[01May2026 15:03:19.687] [Server thread/INFO] [Framework/]: Loading server configs...
+[01May2026 15:03:19.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01May2026 15:03:20.242] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[01May2026 15:03:20.247] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[01May2026 15:03:20.283] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[01May2026 15:03:20.285] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[01May2026 15:03:20.287] [Server thread/ERROR] [incontrol/]: Unknown item 'totem_fragments:fragment'!
+[01May2026 15:03:20.290] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[01May2026 15:03:20.291] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[01May2026 15:03:20.293] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[01May2026 15:03:20.294] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[01May2026 15:03:20.296] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[01May2026 15:03:20.298] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[01May2026 15:03:20.299] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[01May2026 15:03:20.302] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[01May2026 15:03:20.309] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[01May2026 15:03:20.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01May2026 15:03:20.453] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[01May2026 15:03:23.023] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4262730 ms
+[01May2026 15:03:23.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.424s)! For help, type "help"
+[01May2026 15:03:23.055] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01May2026 15:03:23.089] [Server thread/INFO] [com.technicboyman.nobz.nobabyzombies1_20_1forge.Nobabyzombies1_20_1forge/]: HELLO from server starting
+[01May2026 15:03:23.093] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: forgivingworld.json
+[01May2026 15:03:23.102] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[01May2026 15:03:23.122] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01May2026 15:03:23.135] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'ny-guests.gl.at.ply.gg'
+[01May2026 15:03:23.138] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 2779
+[01May2026 15:03:23.137] [Server thread/WARN] [ModernFix/]: Dedicated server took 31.844 seconds to load
+[01May2026 15:05:09.572] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:ReFaxio'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[?:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[?:?]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md198ecc$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:596) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md198ecc$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:580) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:05:09.676] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReFaxio[/127.49.253.238:37317] logged in with entity id 53 at (-1574.4044387165886, 72.875, -53.38244480651881)
+[01May2026 15:05:09.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ReFaxio joined the game
+[01May2026 15:05:12.732] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ReFaxio (20)
+[01May2026 15:05:12.736] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ReFaxio
+[01May2026 15:05:24.985] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[01May2026 15:05:26.008] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a9427a72-3bb3-3a63-96ad-beaecc4e4951
+[01May2026 15:05:26.012] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ReFaxio (a9427a72-3bb3-3a63-96ad-beaecc4e4951) successfully connected to voice chat
+[01May2026 15:11:45.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ReFaxio moved too quickly! 1576.5830558721912,5.768476202412984,50.47449205667969
+[01May2026 15:11:55.005] [Server thread/ERROR] [net.lionarius.skinrestorer.skin.SkinService/]: Failed to set skin 'mojang:ReFaxio'
+java.util.concurrent.CompletionException: not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: not found
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:70) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 14 more
+Caused by: java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:11:57.975] [Server thread/ERROR] [net.lionarius.skinrestorer.skin.SkinService/]: Failed to set skin 'mojang:ReFaxio'
+java.util.concurrent.CompletionException: not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$255(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zem000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: not found
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:70) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 16 more
+Caused by: java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:12:18.437] [Server thread/ERROR] [net.lionarius.skinrestorer.skin.SkinService/]: Failed to set skin 'mojang:ReFaxio'
+java.util.concurrent.CompletionException: not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: not found
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:70) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 14 more
+Caused by: java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:12:21.019] [Server thread/ERROR] [net.lionarius.skinrestorer.skin.SkinService/]: Failed to set skin 'mojang:ReFaxio'
+java.util.concurrent.CompletionException: not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: not found
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:70) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 14 more
+Caused by: java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:12:24.129] [Server thread/ERROR] [net.lionarius.skinrestorer.skin.SkinService/]: Failed to set skin 'mojang:ReFaxio'
+java.util.concurrent.CompletionException: not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$255(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zem000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: net.lionarius.skinrestorer.exception.TransparentException: not found
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$2(SkinService.java:70) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	... 16 more
+Caused by: java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23289!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$0(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.lionarius.skinrestorer.skin.SkinService.lambda$setSkinAsync$1(SkinService.java:61) ~[skinrestorer-2.7.0+1.20-forge.jar%23279!/:2.7.0+1.20-forge]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01May2026 15:12:28.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Skin changed]
+[01May2026 15:33:23.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Set own game mode to Spectator Mode]
+[01May2026 15:33:32.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Set own game mode to Survival Mode]
+[01May2026 15:33:44.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Set own game mode to Spectator Mode]
+[01May2026 15:33:51.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Gave 1 [Iron Pickaxe] to ReFaxio]
+[01May2026 15:33:53.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ReFaxio: Set own game mode to Survival Mode]
